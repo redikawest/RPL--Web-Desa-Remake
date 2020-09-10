@@ -24,6 +24,7 @@
 		      <a class="nav-link" id="umkm">UMKM</a>
 					<a class="nav-link" id="wisata">Wisata Desa</a>
 					<a class="nav-link" id="kontak">Kontak Desa</a>
+					<a class="nav-link" id="login">Login</a>
 		    </div>
 		</nav>
 	</div>
@@ -63,6 +64,8 @@
 				$('.badan').load('wisata.php')
 			}else if (menu == "kontak") {
 				$('.badan').load('kontak.php')
+			}else if (menu == "login") {
+				$('.badan').load('login.php')
 			}
 		});
 
